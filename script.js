@@ -142,9 +142,9 @@ document.getElementById("mathOutput").innerHTML = mathResults;
 
 //1. Check whether the converted value is NaN
 if(Number.isNaN(converted4)){
-    document.getElementById("numberConverstionOutput").innerHTML += "<p>The text '" + nonnumericString + "' cannot be converted into a number.</p>";
+    document.getElementById("numberConversionOutput").innerHTML += "<p>The text '" + nonnumericString + "' cannot be converted into a number.</p>";
 }else{
-    document.getElementById("numberConverstionOutput").innerHTML += "<p>The value was successfully converted in a number.</p>"
+    document.getElementById("numberConversionOutput").innerHTML += "<p>The value was successfully converted in a number.</p>"
 }
 
 //2. Check whether the total was greater than 50
